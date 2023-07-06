@@ -167,9 +167,9 @@ a:visited{
     position:relative;
     background-image:url('../images/image2.jpeg');
 
-    background-repeat: no-repeat;
-    background-position:100px 200px;
-    background-position: center top;
+    /* background-repeat: no-repeat; */
+    /* background-position:100px 200px;
+    background-position: center top; */
 
 
 }
