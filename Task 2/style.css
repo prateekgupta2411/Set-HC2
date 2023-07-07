@@ -1,0 +1,36 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.name {
+    font-size: 24px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    text-align: center;
+}
+
+.gift-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gift-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.buy-online {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}

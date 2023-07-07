@@ -1,0 +1,44 @@
+.container {
+    /* max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; */
+    border: 1px #ccc solid;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.name {
+    /* font-size: 24px;
+    text-align: center; */
+    text-align:center;
+}
+
+.address, .contact {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.objective, .experience, .education, .interests {
+    font-size: 14px;
+}
+
+.experience-year, .education-year {
+    font-weight: bold;
+}
+
+.education-degree {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.education-year {
+    margin-bottom: 5px;
+}
+
