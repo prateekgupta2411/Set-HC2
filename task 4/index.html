@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advertising Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advertising Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name/Company name*</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>Advertising Size (pixels)</label>
+                <div class="radio-group">
+                    <input type="radio" id="option1" name="adSize" value="Option1" required>
+                    <label for="option1">Option1</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="option2" name="adSize" value="Option2" required>
+                    <label for="option2">Option2</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="option3" name="adSize" value="Option3" required>
+                    <label for="option3">Option3</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Which sites would you like to advertise on?</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="site1" name="sites" value="Option1">
+                    <label for="site1">Option1</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="site2" name="sites" value="Option2">
+                    <label for="site2">Option2</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="site3" name="sites" value="Option3">
+                    <label for="site3">Option3</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
